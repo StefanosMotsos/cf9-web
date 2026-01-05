@@ -4,16 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment form</title>
+    <style>
+        *, ::after, ::before {
+            box-sizing: border-box;
+            padding: 0;
+        }
+
+        .table {
+            margin-left: 100px;
+            width: 250px;
+            margin-bottom: 10px;
+        }
+
+        .radio {
+            padding: 10px 10px;
+        }
+
+        .label {
+            margin-bottom: 10px;
+        }
+
+        .label label {
+            display: inline-block;
+            text-align: right;
+            width: 100px;
+            margin-right: 10px;
+        }
+
+        .label input {
+            width: 240px;
+        }
+    </style>
 </head>
 <body>
     <form>
         <h1>Φορμα Πληρωμης</h1>
         <p>τα υποχρεωτικα πεδια ακολοθουνται απο <abbr title="required field">*</abbr></p>
         <h2>Προσωπικά στοιχεία</h2>
-        <div>
+        <div class="table">
             <fieldset>
                 <legend>Title</legend>
-                <div>
+                <div class="radio">
                     <input type="radio" name="Title" value="Mr" id="fldMr">
                     <label for="fldMr">Mr.</label>
                     <br>
@@ -25,15 +56,15 @@
                 </div>
             </fieldset>
         </div>
-        <div>
+        <div class="label">
             <label for="fldName">Name:<abbr title="required field">*</abbr></label>
             <input type="text" name="name" id="fldName">
         </div>
-        <div>
+        <div class="label">
             <label for="fldEmail">Email <abbr title="required field">*</abbr></label>
             <input type="email" name="email" id="fldEmail">
         </div>
-        <div>
+        <div class="label">
             <label for="fldPassword">Password <abbr title="required field">*</abbr></label>
             <input type="password" name="password" id="fldPassword">
         </div>

@@ -4,31 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Test 2</title>
+    <style>
+        *, ::after, ::before {
+            box-sizing: border-box;
+            padding: 0;
+        }
+
+        .row {
+            margin-bottom: 10px;
+        }
+        label {
+            display: inline-block;
+            width: 155px;
+        }
+        [type='text'] {
+            width: 200px;
+        }
+        [type='number'] {
+            width: 60px;
+        }
+    </style>
 </head>
 <body>
     <form>
         <h1>Στοιχεία Εκπαιδευόμενου</h1>
-        <div>
+        <div class="row">
             <label for="fldLastname">Επώνυμο:</label>
             <input type="text" name="lastname" id="fldLastname">
         </div>
-        <div>
+        <div class="row">
             <label for="fldFirstname">Όνομα:</label>
             <input type="text" name="firstname" id="fldFirstname">
         </div>
-        <div>
+        <div class="row">
             <label for="fldBirthDate">Ημερομηνία Γέννησης:</label>
             <input type="date" name="birthDate" id="fldBirthDate">
         </div>
-        <div>
+        <div class="row">
             <label for="fldYears">Έτος Σπουδών:</label>
             <input type="number" name="years" id="fldYears">
         </div>
-        <div>
+        <div class="row">
             <label for="fldEmail">Login (e-mail):</label>
             <input type="email" name="email" id="fldYears">
         </div>
-        <div>
+        <div class="row">
             <label for="fldPassword">Password</label>
             <input type="password" name="password" id="fldPassword">
         </div>
