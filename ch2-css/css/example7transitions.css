@@ -3,7 +3,7 @@
     height: 200px;
     background-color: red;
     transition: width 1s ease-in;
-    margin-bottom: 10px``;
+    margin-bottom: 10px;
 }
 
 .box1:hover {

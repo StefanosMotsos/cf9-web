@@ -1,0 +1,26 @@
+h1 {
+    color: cornflowerblue;
+    border-bottom: 1px solid cornflowerblue;
+}
+
+h2 {
+    color: gray;
+}
+
+.size {
+    font-size: 1rem;
+}
+
+.contact {
+    border: 5px solid darkmagenta;
+    background-color: lightgray;
+    width: 30%;
+    padding: 10px;
+}
+
+a {
+    color: orange;
+}
+
+
+

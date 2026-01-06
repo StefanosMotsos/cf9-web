@@ -1,0 +1,67 @@
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: cornflowerblue;
+    margin: auto;
+}
+
+.main {
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.main > h1 {
+    color: gray;
+    text-align: center;
+}
+
+.main > input {
+    display: block;
+    width: 200px;
+    height: 40px;
+    background-color: mistyrose;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.button {
+    background-color: cornflowerblue;
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 210px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.lost {
+    color: gray;
+    text-align: center;
+    display: block;
+}
+
+.footer {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer a {
+    color: white;
+}
